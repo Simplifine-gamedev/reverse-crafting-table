@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "reverse-crafting-table",
+  "version": "1.0.0",
+  "name": "Reverse Crafting Table",
+  "description": "Adds a Reverse Crafting Table that lets you deconstruct crafted items back into materials",
+  "authors": ["ali77sina"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.reversecraft.reversecraftingtable.ReverseCraftingTableMod"],
+    "client": ["com.reversecraft.reversecraftingtable.ReverseCraftingTableModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
